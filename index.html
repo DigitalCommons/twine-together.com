@@ -301,7 +301,7 @@
             <div class="wrapper wrapper--wide">
                 <h1 class="header__logo"><a href="./index.html">Twine</a></h1>
 
-                <a class="menu__btn js-mobile-nav-btn" data-target="#menu" href="./index.html/#">
+                <a class="menu__btn js-mobile-nav-btn" data-target="#menu" href="./index.html#">
                     <span></span>
                 </a>
 
@@ -385,7 +385,19 @@
                     background-color: #8e41fd;
                     color: #ffffff;
                     min-height: 3em;
-                    margin-top: -46px;
+                    margin-top: -61px;
+                }
+
+                @media (min-width: 60em) {
+                    .dc-crowdfunder-banner {
+                        margin-top: -25px;
+                    }
+                }
+
+                @media (min-width: 75em) {
+                    .dc-crowdfunder-banner {
+                        margin-top: -84px;
+                    }
                 }
 
                 .gh-canvas {

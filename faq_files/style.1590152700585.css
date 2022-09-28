@@ -1881,7 +1881,8 @@ body {
   }
 }
 .site-page {
-  overflow: hidden;
+  margin-top: 40px;
+  /* overflow: hidden;*/
   max-width: 100%;
   position: relative;
   min-height: 100vh;
